@@ -1,3 +1,4 @@
+#include <vector>
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Rand.h"
@@ -13,9 +14,10 @@ class ArrowMapApp : public AppBasic
 {
     ArrowMap *am;
     MapParticle **particles;
+    vector<Agent*> agents;
     unsigned int mouseOn;
     Vec2i mousePos;
-    bool spaceDown, dDown;
+    bool spaceDown, dDown, aDown;
     //osc::Sender oscSender;
     //Timer timer;
     //float t;
@@ -52,31 +54,36 @@ void ArrowMapApp::setup()
     
     spaceDown = false;
     dDown = false;
+    aDown = false;
     //oscSender.setup("localhost", 1234);
     mousePos = Vec2i(-1, 0);
     mouseOn = 0;
     //timer.start();
     //t = 0.0f;
+    //Agent agent(am, "localhost", "localhost", 1234, 1234);
     
     gl::enableAlphaBlending();
 }
 
 void ArrowMapApp::mouseDown(MouseEvent event)
 {
-    for (int i = 0; i < am->mapSize(); i++)
-        if ((event.getPos()-particles[i]->getx()).lengthSquared() <= 9.0f)
-        {
-            if (dDown)
-                particles[i]->disturb();
-            else
+    if (aDown)
+        agents.push_back(new Agent(am, "localhost", "localhost", 1234, 1234));
+    else
+        for (int i = 0; i < am->mapSize(); i++)
+            if ((event.getPos()-particles[i]->getx()).lengthSquared() <= 9.0f)
             {
-                particles[i]->mouseGrab();
-                particles[i]->mouseDrag(event.getPos());
-                mouseOn = i;
-                if (!spaceDown)
-                    break;
+                if (dDown)
+                    particles[i]->disturb();
+                else
+                {
+                    particles[i]->mouseGrab();
+                    particles[i]->mouseDrag(event.getPos());
+                    mouseOn = i;
+                    if (!spaceDown)
+                        break;
+                }
             }
-        }
 }
 
 void ArrowMapApp::mouseDrag(MouseEvent event)
@@ -111,6 +118,9 @@ void ArrowMapApp::keyDown(KeyEvent event)
         case 'd':
             dDown = true;
             break;
+        case 'a':
+            aDown = true;
+            break;
     }
 }
 
@@ -118,6 +128,7 @@ void ArrowMapApp::keyUp(KeyEvent event)
 {
     spaceDown = false;
     dDown = false;
+    aDown = false;
 }
 
 void ArrowMapApp::update()
@@ -155,6 +166,8 @@ void ArrowMapApp::draw()
 
 void ArrowMapApp::shutdown()
 {
+    for (vector<Agent*>::iterator it = agents.begin(); it < agents.end(); it++)
+        delete *it;
     for (int i = 0; i < am->mapSize(); i++)
         delete particles[i];
     delete [] particles;

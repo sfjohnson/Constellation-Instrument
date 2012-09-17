@@ -8,6 +8,7 @@
 
 #include <sstream>
 #include "Agent.h"
+#include "nsSMILKeySpline.h"
 
 int Agent::agentCount = 0;
 
@@ -35,14 +36,18 @@ void Agent::step()
     {
         std::stringstream ss;
 
-        if (steadyCounter == 0 && map->isAttractor(state))
+        if ((steadyCounter == 0 && map->isAttractor(state)) || (steadyCounter > 0 && steadyCounter < steadyLength))
             steadyCounter++;
-        else if (steadyCounter > 0)
+        else if (steadyCounter == steadyLength)
+            decayCounter++;
+        
+        if (decayCounter > 0 && decayCounter < decayLength)
         {
-            if (steadyCounter == steadyLength)
-                decayCounter++;
-            else
-                steadyCounter++;
+            strength = decayTable[decayCounter];
+            decayCounter++;
+            
+            if (decayCounter == decayLength)
+                dropped = false;
         }
         
         message.clear();
@@ -59,10 +64,10 @@ void Agent::step()
     }
 }
 
-Vec2f Agent::lerp(const Vec2f &a, const Vec2f &b, const float t)
+/*Vec2f Agent::lerp(const Vec2f &a, const Vec2f &b, const float t)
 {
 	return a + (b-a)*t;
-}
+}*/
 
 //The agent proceeds as follows:
 //1. Gets dropped into a transient area or an attractor
@@ -71,6 +76,8 @@ Vec2f Agent::lerp(const Vec2f &a, const Vec2f &b, const float t)
 //4. Travels stepsUntilDeath steps while decaying
 void Agent::drop(unsigned int initialState, float inflectionAmt, int stepsInAttractor, int stepsUntilDeath)
 {
+    nsSMILKeySpline decayEasing;
+    
     dropped = true;
     state = initialState;
     decayLength = stepsUntilDeath;
@@ -82,14 +89,19 @@ void Agent::drop(unsigned int initialState, float inflectionAmt, int stepsInAttr
     if (decayTable != NULL)
         delete [] decayTable;
     
+    decayTable = new float[decayLength];
+    decayEasing.Init(inflectionAmt, 0.0, 1.0 - inflectionAmt, 1.0);
+    
+    for (int i = 0; i < decayLength; i++)
+        decayTable[i] = 1.0 - decayEasing.GetSplineValue((double)i / (decayLength-1));
+    
     //DEBUG: the Bezier code is broken, inflectionAmt doesn't do anything.
-    Vec2f a0(0.0f, 1.0f);
+    /*Vec2f a0(0.0f, 1.0f);
     Vec2f a1(inflectionAmt, 1.0f);
     Vec2f a2(1.0f - inflectionAmt, 0.0f);
     Vec2f a3(1.0f, 0.0f);
     Vec2f t0, t1, t2;
     float t = 0.0f;
-    
     decayTable = new float[decayLength];
     for (int i = 0; i < decayLength; i++, t = (float)i / (decayLength-1))
     {
@@ -99,5 +111,5 @@ void Agent::drop(unsigned int initialState, float inflectionAmt, int stepsInAttr
         t0 = lerp(t0, t1, t);
         t1 = lerp(t1, t2, t);
         decayTable[i] = lerp(t0, t1, t).y;
-    }
+    }*/
 }

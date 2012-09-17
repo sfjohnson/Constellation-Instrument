@@ -36,7 +36,6 @@
  * ***** END LICENSE BLOCK ***** */
 
 #include "nsSMILKeySpline.h"
-#include "prtypes.h"
 #include <math.h>
 
 #define NEWTON_ITERATIONS          4
@@ -82,7 +81,7 @@ nsSMILKeySpline::GetSplineDerivativeValues(double aX, double& aDX, double& aDY) 
 void
 nsSMILKeySpline::CalcSampleValues()
 {
-  for (PRUint32 i = 0; i < kSplineTableSize; ++i) {
+  for (int i = 0; i < kSplineTableSize; ++i) {
     mSampleValues[i] = CalcBezier(double(i) * kSampleStepSize, mX1, mX2);
   }
 }
@@ -139,7 +138,7 @@ double
 nsSMILKeySpline::NewtonRaphsonIterate(double aX, double aGuessT) const
 {
   // Refine guess with Newton-Raphson iteration
-  for (PRUint32 i = 0; i < NEWTON_ITERATIONS; ++i) {
+  for (int i = 0; i < NEWTON_ITERATIONS; ++i) {
     // We're trying to find where f(t) = aX,
     // so we're actually looking for a root for: CalcBezier(t) - aX
     double currentX = CalcBezier(aGuessT, mX1, mX2) - aX;
@@ -159,7 +158,7 @@ nsSMILKeySpline::BinarySubdivide(double aX, double aA, double aB) const
 {
   double currentX;
   double currentT;
-  PRUint32 i = 0;
+  int i = 0;
 
   do
   {

@@ -19,6 +19,7 @@
 		343F4E0015FF57230041D2CB /* physicsParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343F4DFE15FF57230041D2CB /* physicsParticle.cpp */; };
 		343F4E0615FF5DFD0041D2CB /* MapParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343F4E0415FF5DFD0041D2CB /* MapParticle.cpp */; };
 		3471D9031601997F00C6722C /* Agent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3471D9011601997F00C6722C /* Agent.cpp */; };
+		34AB25101606F09A00880178 /* nsSMILKeySpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34AB250F1606F09A00880178 /* nsSMILKeySpline.cpp */; };
 		34C9556D16008B710065E3D7 /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9556916008B710065E3D7 /* OscBundle.cpp */; };
 		34C9556E16008B710065E3D7 /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9556A16008B710065E3D7 /* OscListener.cpp */; };
 		34C9556F16008B710065E3D7 /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34C9556B16008B710065E3D7 /* OscMessage.cpp */; };
@@ -53,6 +54,8 @@
 		3480FF6F16007733009891CB /* ArrowMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrowMap.h; path = ../include/ArrowMap.h; sourceTree = "<group>"; };
 		3480FF7116007749009891CB /* physicsParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physicsParticle.h; path = ../include/physicsParticle.h; sourceTree = "<group>"; };
 		3480FF7216007750009891CB /* MapParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapParticle.h; path = ../include/MapParticle.h; sourceTree = "<group>"; };
+		34AB250F1606F09A00880178 /* nsSMILKeySpline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nsSMILKeySpline.cpp; path = ../src/nsSMILKeySpline.cpp; sourceTree = "<group>"; };
+		34AB25111606F0B200880178 /* nsSMILKeySpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nsSMILKeySpline.h; path = ../include/nsSMILKeySpline.h; sourceTree = "<group>"; };
 		34C9555516008B710065E3D7 /* IpEndpointName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpEndpointName.h; sourceTree = "<group>"; };
 		34C9555616008B710065E3D7 /* NetworkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingUtils.h; sourceTree = "<group>"; };
 		34C9555716008B710065E3D7 /* PacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketListener.h; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 				3471D9011601997F00C6722C /* Agent.cpp */,
 				343F4E0415FF5DFD0041D2CB /* MapParticle.cpp */,
 				343F4DFE15FF57230041D2CB /* physicsParticle.cpp */,
+				34AB250F1606F09A00880178 /* nsSMILKeySpline.cpp */,
 				343F4DFB15FEE23C0041D2CB /* ArrowMap.cpp */,
 				00BAE6590E7ED9C10018A608 /* ArrowMapApp.cpp */,
 			);
@@ -175,6 +179,7 @@
 				3480FF7116007749009891CB /* physicsParticle.h */,
 				3480FF7216007750009891CB /* MapParticle.h */,
 				3471D9021601997F00C6722C /* Agent.h */,
+				34AB25111606F0B200880178 /* nsSMILKeySpline.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				34C9556F16008B710065E3D7 /* OscMessage.cpp in Sources */,
 				34C9557016008B710065E3D7 /* OscSender.cpp in Sources */,
 				3471D9031601997F00C6722C /* Agent.cpp in Sources */,
+				34AB25101606F09A00880178 /* nsSMILKeySpline.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CINDER_PATH = ../../../../../../../cinder_0.8.4_mac;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -387,7 +394,6 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
 					"\"$(SRCROOT)/../blocks/osc/lib/iphone\"",
 					"\"$(SRCROOT)/../blocks/osc/lib/macosx\"",
 				);
@@ -406,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CINDER_PATH = ../../../../../../../cinder_0.8.4_mac;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -420,7 +427,6 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
 					"\"$(SRCROOT)/../blocks/osc/lib/iphone\"",
 					"\"$(SRCROOT)/../blocks/osc/lib/macosx\"",
 				);

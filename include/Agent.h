@@ -32,12 +32,13 @@ class Agent
     osc::Sender sender;
     osc::Message message;
     
+    //static Vec2f lerp(const Vec2f &a, const Vec2f &b, const float t);
+    
 public:
     Agent(const ArrowMap *arrowMap, const std::string &senderHost, const std::string &remoteHost, int senderPort, int remotePort);
     ~Agent();
     
     void step();
-    static Vec2f lerp(const Vec2f &a, const Vec2f &b, const float t);
     void drop(unsigned int initialState, float inflectionAmt, int stepsInAttractor, int stepsUntilDeath);
 };
 
