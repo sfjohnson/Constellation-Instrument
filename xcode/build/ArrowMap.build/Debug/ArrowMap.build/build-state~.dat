@@ -1,0 +1,265 @@
+TArrowMap
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.pth ArrowMap_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000503975460000000000002400
+t1345942854
+s9216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000503975470000000000023FF4
+t1345942855
+s147444
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000005039754700000000000061F4
+t1345942855
+s25076
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005039754700000000000001E5
+t1345942855
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000050397547000000000000E8A8
+t1345942855
+s59560
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005038E0E000000000000069F0
+t1345904864
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005038E0E10000000000006730
+t1345904865
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005038E0E90000000000081CB0
+t1345904873
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005038E103000000000002DAF0
+t1345904899
+s187120
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005038E10D00000000004A2D90
+t1345904909
+s4861328
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000005038E3D80000000000322E20
+t1345905624
+s3288608
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp
+c00000000504EA6A800000000000001FF
+t1347331752
+s511
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMap.LinkFileList
+c00000000504EA701000000000000008F
+t1347331841
+s143
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.o
+t2
+s0
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app
+t2
+s0
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist
+t2
+s0
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap
+t2
+s0
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/ArrowMap_Prefix.pch
+c00000000504EA3C00000000000000093
+t1347331008
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/CinderApp.icns
+c00000000504EA3C0000000000001BEB5
+t1347331008
+s114357
+
+N/var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000504EA3C0000000000000034E
+t1347331008
+s846
+
+CBuild AST from /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8a736c81defeb541^a25f7f81defeb541^---0#1#0#--18"Check dependencies36"38ACBFD1-9A40-41D7-BA22-4C80967A8297-
+
+CCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s369024641.901991
+e369024647.113138
+r1
+xCompileC
+x./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.o
+x/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp4414e781defeb541^ecf71c87defeb541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp0000000000000000^2965"CompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.o ../src/ArrowMapApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-generated-files.hmap -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-own-target-headers.hmap -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-all-target-headers.hmap -iquote /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-project-headers.hmap -iquote../../../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug/include -I../../../../../../cinder_0.8.4_mac/boost -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/x86_64 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug -include /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch -MMD -MT dependencies -MF /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.d --serialize-diagnostics /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMapApp.o36"8A45D282-9B1A-4D66-83DE-F1DB1282289F-
+
+CCpResource CinderApp.icns ./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns
+s369024641.589543
+e369024641.703522
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy ./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns54fd9681defeb541^d121b481defeb541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns000000000080d041^456"CpResource CinderApp.icns ./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/CinderApp.icns /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Resources36"A2AB9D60-CD73-4297-A5C9-B018C68F3ED6-
+
+CLd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal x86_64
+s369024647.120020
+e369024648.752895
+r0
+xLd
+x/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap
+xnormal
+xx86_64
+old: warning: ignoring file ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a, file was built for archive which is not the architecture being linked (x86_64): ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a
+old: warning: ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for unsupported file format ( 0xce 0xfa 0xed 0xfe 0x 7 0x 0 0x 0 0x 0 0x 3 0x 0 0x 0 0x 0 0x 9 0x 0 0x 0 0x 0 ) which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime
+oUndefined symbols for architecture x86_64:
+o  "boost::system::system_category()", referenced from:
+o      ___cxx_global_var_init3 in ArrowMapApp.o
+o  "boost::system::generic_category()", referenced from:
+o      ___cxx_global_var_init1 in ArrowMapApp.o
+o      ___cxx_global_var_init2 in ArrowMapApp.o
+o  "cinder::gl::clear(cinder::ColorAT<float> const&, bool)", referenced from:
+o      ArrowMapApp::draw() in ArrowMapApp.o
+o  "cinder::app::RendererGl::RendererGl()", referenced from:
+o      _main in ArrowMapApp.o
+o  "cinder::app::App::cleanupLaunch()", referenced from:
+o      cinder::app::AppBasic::cleanupLaunch() in ArrowMapApp.o
+o  "cinder::app::App::executeLaunch(cinder::app::App*, cinder::app::Renderer*, char const*, int, char* const*)", referenced from:
+o      cinder::app::AppBasic::executeLaunch(cinder::app::AppBasic*, cinder::app::Renderer*, char const*, int, char* const*) in ArrowMapApp.o
+o  "cinder::app::App::prepareLaunch()", referenced from:
+o      cinder::app::AppBasic::prepareLaunch() in ArrowMapApp.o
+o  "cinder::app::App::privateDraw__()", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::App::privateSetup__()", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::App::privateUpdate__()", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::App::privateShutdown__()", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::getAppPath()", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setFrameRate(float)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setWindowPos(cinder::Vec2<int> const&)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setBorderless(bool)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setFullScreen(bool)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setWindowSize(int, int)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setAlwaysOnTop(bool)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setWindowWidth(int)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::privateResize__(cinder::app::ResizeEvent const&)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::setWindowHeight(int)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::quit()", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::launch(char const*, int, char* const*)", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::sInstance", referenced from:
+o      cinder::app::AppBasic::executeLaunch(cinder::app::AppBasic*, cinder::app::Renderer*, char const*, int, char* const*) in ArrowMapApp.o
+o  "cinder::app::AppBasic::AppBasic()", referenced from:
+o      ArrowMapApp::ArrowMapApp() in ArrowMapApp.o
+o  "cinder::app::AppBasic::~AppBasic()", referenced from:
+o      ArrowMapApp::~ArrowMapApp() in ArrowMapApp.o
+o  "cinder::app::AppBasic::getFrameRate() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::getWindowPos() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::isBorderless() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::isFullScreen() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::isAlwaysOnTop() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::getWindowWidth() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "cinder::app::AppBasic::getWindowHeight() const", referenced from:
+o      vtable for ArrowMapApp in ArrowMapApp.o
+o  "typeinfo for cinder::app::AppBasic", referenced from:
+o      typeinfo for ArrowMapApp in ArrowMapApp.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Link /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap89d21e87defeb541^66bdc088defeb541^-4975"ld: warning: ignoring file ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a, file was built for archive which is not the architecture being linked (x86_64): ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.ald: warning: ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for unsupported file format ( 0xce 0xfa 0xed 0xfe 0x 7 0x 0 0x 0 0x 0 0x 3 0x 0 0x 0 0x 0 0x 9 0x 0 0x 0 0x 0 ) which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks//QuickTime.framework/QuickTimeUndefined symbols for architecture x86_64:  "boost::system::system_category()", referenced from:      ___cxx_global_var_init3 in ArrowMapApp.o  "boost::system::generic_category()", referenced from:      ___cxx_global_var_init1 in ArrowMapApp.o      ___cxx_global_var_init2 in ArrowMapApp.o  "cinder::gl::clear(cinder::ColorAT<float> const&, bool)", referenced from:      ArrowMapApp::draw() in ArrowMapApp.o  "cinder::app::RendererGl::RendererGl()", referenced from:      _main in ArrowMapApp.o  "cinder::app::App::cleanupLaunch()", referenced from:      cinder::app::AppBasic::cleanupLaunch() in ArrowMapApp.o  "cinder::app::App::executeLaunch(cinder::app::App*, cinder::app::Renderer*, char const*, int, char* const*)", referenced from:      cinder::app::AppBasic::executeLaunch(cinder::app::AppBasic*, cinder::app::Renderer*, char const*, int, char* const*) in ArrowMapApp.o  "cinder::app::App::prepareLaunch()", referenced from:      cinder::app::AppBasic::prepareLaunch() in ArrowMapApp.o  "cinder::app::App::privateDraw__()", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::App::privateSetup__()", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::App::privateUpdate__()", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::App::privateShutdown__()", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::getAppPath()", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setFrameRate(float)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setWindowPos(cinder::Vec2<int> const&)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setBorderless(bool)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setFullScreen(bool)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setWindowSize(int, int)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setAlwaysOnTop(bool)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setWindowWidth(int)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::privateResize__(cinder::app::ResizeEvent const&)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::setWindowHeight(int)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::quit()", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::launch(char const*, int, char* const*)", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::sInstance", referenced from:      cinder::app::AppBasic::executeLaunch(cinder::app::AppBasic*, cinder::app::Renderer*, char const*, int, char* const*) in ArrowMapApp.o  "cinder::app::AppBasic::AppBasic()", referenced from:      ArrowMapApp::ArrowMapApp() in ArrowMapApp.o  "cinder::app::AppBasic::~AppBasic()", referenced from:      ArrowMapApp::~ArrowMapApp() in ArrowMapApp.o  "cinder::app::AppBasic::getFrameRate() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::getWindowPos() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::isBorderless() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::isFullScreen() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::isAlwaysOnTop() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::getWindowWidth() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "cinder::app::AppBasic::getWindowHeight() const", referenced from:      vtable for ArrowMapApp in ArrowMapApp.o  "typeinfo for cinder::app::AppBasic", referenced from:      typeinfo for ArrowMapApp in ArrowMapApp.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)73(21%IDEActivityLogMessage2@200"Ignoring file ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a, file was built for archive which is not the architecture being linked (x86_64): ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a-369024647#0#214#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@506"Ignoring file /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime, file was built for unsupported file format ( 0xce 0xfa 0xed 0xfe 0x 7 0x 0 0x 0 0x 0 0x 3 0x 0 0x 0 0x 0 0x 9 0x 0 0x 0 0x 0 ) which is not the architecture being linked (x86_64): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks//QuickTime.framework/QuickTime-369024647#214#520#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@52""boost::system::system_category()", referenced from:-369024648#777#55#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@40"___cxx_global_var_init3 in ArrowMapApp.o-369024648#832#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@53""boost::system::generic_category()", referenced from:-369024648#879#56#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@40"___cxx_global_var_init1 in ArrowMapApp.o-369024648#935#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@40"___cxx_global_var_init2 in ArrowMapApp.o-369024648#982#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@74""cinder::gl::clear(cinder::ColorAT<float> const&, bool)", referenced from:-369024648#1029#77#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@36"ArrowMapApp::draw() in ArrowMapApp.o-369024648#1106#43#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@57""cinder::app::RendererGl::RendererGl()", referenced from:-369024648#1149#60#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@22"_main in ArrowMapApp.o-369024648#1209#29#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@53""cinder::app::App::cleanupLaunch()", referenced from:-369024648#1238#56#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@55"Cinder::app::AppBasic::cleanupLaunch() in ArrowMapApp.o-369024648#1294#62#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@126""cinder::app::App::executeLaunch(cinder::app::App*, cinder::app::Renderer*, char const*, int, char* const*)", referenced from:-369024648#1356#129#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@133"Cinder::app::AppBasic::executeLaunch(cinder::app::AppBasic*, cinder::app::Renderer*, char const*, int, char* const*) in ArrowMapApp.o-369024648#1485#140#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@53""cinder::app::App::prepareLaunch()", referenced from:-369024648#1625#56#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@55"Cinder::app::AppBasic::prepareLaunch() in ArrowMapApp.o-369024648#1681#62#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@53""cinder::app::App::privateDraw__()", referenced from:-369024648#1743#56#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#1799#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@54""cinder::app::App::privateSetup__()", referenced from:-369024648#1845#57#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#1902#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@55""cinder::app::App::privateUpdate__()", referenced from:-369024648#1948#58#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2006#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@57""cinder::app::App::privateShutdown__()", referenced from:-369024648#2052#60#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2112#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@55""cinder::app::AppBasic::getAppPath()", referenced from:-369024648#2158#58#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2216#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@62""cinder::app::AppBasic::setFrameRate(float)", referenced from:-369024648#2262#65#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2327#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@81""cinder::app::AppBasic::setWindowPos(cinder::Vec2<int> const&)", referenced from:-369024648#2373#84#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2457#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@62""cinder::app::AppBasic::setBorderless(bool)", referenced from:-369024648#2503#65#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2568#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@62""cinder::app::AppBasic::setFullScreen(bool)", referenced from:-369024648#2614#65#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2679#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@66""cinder::app::AppBasic::setWindowSize(int, int)", referenced from:-369024648#2725#69#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2794#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""cinder::app::AppBasic::setAlwaysOnTop(bool)", referenced from:-369024648#2840#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#2906#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@62""cinder::app::AppBasic::setWindowWidth(int)", referenced from:-369024648#2952#65#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#3017#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@91""cinder::app::AppBasic::privateResize__(cinder::app::ResizeEvent const&)", referenced from:-369024648#3063#94#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#3157#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""cinder::app::AppBasic::setWindowHeight(int)", referenced from:-369024648#3203#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#3269#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@49""cinder::app::AppBasic::quit()", referenced from:-369024648#3315#52#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#3367#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@81""cinder::app::AppBasic::launch(char const*, int, char* const*)", referenced from:-369024648#3413#84#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#3497#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@52""cinder::app::AppBasic::sInstance", referenced from:-369024648#3543#55#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@133"Cinder::app::AppBasic::executeLaunch(cinder::app::AppBasic*, cinder::app::Renderer*, char const*, int, char* const*) in ArrowMapApp.o-369024648#3598#140#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@53""cinder::app::AppBasic::AppBasic()", referenced from:-369024648#3738#56#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@43"ArrowMapApp::ArrowMapApp() in ArrowMapApp.o-369024648#3794#50#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@54""cinder::app::AppBasic::~AppBasic()", referenced from:-369024648#3844#57#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"ArrowMapApp::~ArrowMapApp() in ArrowMapApp.o-369024648#3901#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""cinder::app::AppBasic::getFrameRate() const", referenced from:-369024648#3952#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4018#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""cinder::app::AppBasic::getWindowPos() const", referenced from:-369024648#4064#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4130#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""cinder::app::AppBasic::isBorderless() const", referenced from:-369024648#4176#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4242#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""cinder::app::AppBasic::isFullScreen() const", referenced from:-369024648#4288#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4354#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@64""cinder::app::AppBasic::isAlwaysOnTop() const", referenced from:-369024648#4400#67#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4467#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65""cinder::app::AppBasic::getWindowWidth() const", referenced from:-369024648#4513#68#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4581#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@66""cinder::app::AppBasic::getWindowHeight() const", referenced from:-369024648#4627#69#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@39"Vtable for ArrowMapApp in ArrowMapApp.o-369024648#4696#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@54""typeinfo for cinder::app::AppBasic", referenced from:-369024648#4742#57#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@41"Typeinfo for ArrowMapApp in ArrowMapApp.o-369024648#4799#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-369024648#4847#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-369024648#4895#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--1118"Ld ./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal x86_64    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug -filelist /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/x86_64/ArrowMap.LinkFileList -mmacosx-version-min=10.5 ../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap36"56FDFA12-913F-4B76-A52E-BA443C591062-
+
+CProcessInfoPlistFile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist Info.plist
+s369024641.509957
+e369024641.580050
+r1
+xProcessInfoPlistFile
+x/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistefe48381defeb541^d2899481defeb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/Info.plist0000000000000000^459"ProcessInfoPlistFile ./build/Debug/ArrowMap.app/Contents/Info.plist Info.plist    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist36"99F051F6-6660-4D71-8018-8208CFAEC778-
+
+CProcessPCH++ /Users/samjohnson/Library/Developer/Xcode/DerivedData/ArrowMap-dlviiwywbemheohhhtutszujkftt/Index/PrecompiledHeaders/ArrowMap_Prefix-ezmubdvrpswmbyfucuisgvuqoozz_ast/ArrowMap_Prefix.pch.pth ArrowMap_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.pth ArrowMap_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s369024641.713747
+e369024641.890722
+r1
+xProcessPCH++
+x/var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.pth
+xArrowMap_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile ArrowMap_Prefix.pch73d7b681defeb541^c39ae681defeb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/ArrowMap_Prefix.pch0000000000000000^2941"ProcessPCH++ /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.pth ArrowMap_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-generated-files.hmap -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-own-target-headers.hmap -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-all-target-headers.hmap -iquote /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap-project-headers.hmap -iquote../../../../../../cinder_0.8.4_mac/include -iquote../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug/include -I../../../../../../cinder_0.8.4_mac/boost -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/x86_64 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug --serialize-diagnostics /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/ArrowMap_Prefix.pch -o /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-bunxghbbfowqphadcdjezcdyjzic/ArrowMap_Prefix.pch.d36"E6A90A8F-A40E-4E6E-8BC8-27DCDA2FF76F-
+
+CTouch /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app
+r0
+
