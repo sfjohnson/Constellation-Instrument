@@ -10,7 +10,7 @@
 #include "Agent.h"
 #include "nsSMILKeySpline.h"
 
-int Agent::agentCount = 0;
+int Agent::agentCount = 1;
 
 Agent::Agent(const ArrowMap *arrowMap, const std::string &senderHost, const std::string &remoteHost, int senderPort, int remotePort)
 {
@@ -113,3 +113,23 @@ void Agent::drop(unsigned int initialState, float inflectionAmt, int stepsInAttr
         decayTable[i] = lerp(t0, t1, t).y;
     }*/
 }
+
+bool Agent::isDropped()
+{
+    return dropped;
+}
+
+unsigned int Agent::getState()
+{
+    return state;
+}
+
+float Agent::getStrength()
+{
+    return strength;
+}
+
+/*int Agent::getId()
+{
+    return agentId;
+}*/

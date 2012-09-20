@@ -15,12 +15,13 @@ class ArrowMapApp : public AppBasic
     ArrowMap *am;
     MapParticle **particles;
     vector<Agent*> agents;
+    vector<Color*> agentColours;
+    int currentAgent;
     unsigned int mouseOn;
     Vec2i mousePos;
     bool spaceDown, dDown, aDown;
-    //osc::Sender oscSender;
-    //Timer timer;
-    //float t;
+    Timer timer;
+    float t;
     
   public:
     void prepareSettings(Settings *settings);
@@ -55,12 +56,22 @@ void ArrowMapApp::setup()
     spaceDown = false;
     dDown = false;
     aDown = false;
-    //oscSender.setup("localhost", 1234);
     mousePos = Vec2i(-1, 0);
     mouseOn = 0;
-    //timer.start();
-    //t = 0.0f;
-    //Agent agent(am, "localhost", "localhost", 1234, 1234);
+    
+    //http://kuler.adobe.com/#themeID/2063161
+    agents.push_back(new Agent(am, "localhost", "localhost", 1234, 1234));
+    agentColours.push_back(new Color(72 / 255.0f, 82 / 255.0f, 255 / 255.0f));
+    agents.push_back(new Agent(am, "localhost", "localhost", 1234, 1234));
+    agentColours.push_back(new Color(255 / 255.0f, 63 / 255.0f, 179 / 255.0f));
+    agents.push_back(new Agent(am, "localhost", "localhost", 1234, 1234));
+    agentColours.push_back(new Color(31 / 255.0f, 209 / 255.0f, 232 / 255.0f));
+    agents.push_back(new Agent(am, "localhost", "localhost", 1234, 1234));
+    agentColours.push_back(new Color(50 / 255.0f, 255 / 255.0f, 53 / 255.0f));
+    currentAgent = 0;
+    
+    timer.start();
+    t = 0.0f;
     
     gl::enableAlphaBlending();
 }
@@ -68,7 +79,20 @@ void ArrowMapApp::setup()
 void ArrowMapApp::mouseDown(MouseEvent event)
 {
     if (aDown)
-        agents.push_back(new Agent(am, "localhost", "localhost", 1234, 1234));
+    {
+        float shortestDist, currentDist;
+        unsigned int closest;
+        for (int i = 0; i < am->mapSize(); i++)
+        {
+            currentDist = (event.getPos()-particles[i]->getx()).lengthSquared();
+            if (i == 0 || currentDist < shortestDist)
+            {
+                shortestDist = currentDist;
+                closest = i;
+            }
+        }
+        agents[currentAgent]->drop(closest, 0.4f, 70, 90);
+    }
     else
         for (int i = 0; i < am->mapSize(); i++)
             if ((event.getPos()-particles[i]->getx()).lengthSquared() <= 9.0f)
@@ -121,6 +145,18 @@ void ArrowMapApp::keyDown(KeyEvent event)
         case 'a':
             aDown = true;
             break;
+        case '1':
+            currentAgent = 0;
+            break;
+        case '2':
+            currentAgent = 1;
+            break;
+        case '3':
+            currentAgent = 2;
+            break;
+        case '4':
+            currentAgent = 3;
+            break;
     }
 }
 
@@ -133,29 +169,49 @@ void ArrowMapApp::keyUp(KeyEvent event)
 
 void ArrowMapApp::update()
 {
-    //float frameTime = timer.getSeconds() - t;
+    if (timer.getSeconds() - t >= 0.07)
+    {
+        for (vector<Agent*>::iterator it = agents.begin(); it < agents.end(); it++)
+            (*it)->step();
+        t = timer.getSeconds();
+    }
+    
     for (int i = 0; i < am->mapSize(); i++)
         particles[i]->update(1.0f / 60.0f);
-    //t = timer.getSeconds();
+
 }
 
 void ArrowMapApp::draw()
 {
+    //Light purple: 0.878f, 0.69f, 0.965f
+    
 	gl::clear(Color(0, 0, 0));
     
     for (int i = 0; i < am->mapSize(); i++)
     {
-        gl::color(1.0f, 1.0f, 1.0f);
+        if (am->isAttractor(i))
+            gl::color(0.765f, 0.384f, 0.941f);
+        else
+            gl::color(0.9f, 0.9f, 0.9f);
         gl::drawLine(particles[i]->getx(), particles[am->getNextState(i)]->getx());
         
         if (particles[i]->isMouseOn())
             gl::color(1.0f, 0.0f, 0.0f);
         else if (particles[i]->isAsleep())
             gl::color(0.6f, 0.6f, 0.6f);
+        else if (am->isAttractor(i))
+            gl::color(0.765f, 0.384f, 0.941f);
         else
-            gl::color(1.0f, 1.0f, 1.0f);
+            gl::color(0.9f, 0.9f, 0.9f);
         gl::drawSolidCircle(particles[i]->getx(), 2.0f);
     }
+    
+    for (int i = 0; i < agents.size(); i++)
+        if (agents[i]->isDropped())
+        {
+            gl::color(agentColours[i]->r, agentColours[i]->g, agentColours[i]->b, agents[i]->getStrength());
+            gl::drawSolidCircle(particles[agents[i]->getState()]->getx(), 4.0f);
+        }
     
     if (mousePos.x >= 0)
     {
@@ -167,6 +223,8 @@ void ArrowMapApp::draw()
 void ArrowMapApp::shutdown()
 {
     for (vector<Agent*>::iterator it = agents.begin(); it < agents.end(); it++)
+        delete *it;
+    for (vector<Color*>::iterator it = agentColours.begin(); it < agentColours.end(); it++)
         delete *it;
     for (int i = 0; i < am->mapSize(); i++)
         delete particles[i];

@@ -40,6 +40,10 @@ public:
     
     void step();
     void drop(unsigned int initialState, float inflectionAmt, int stepsInAttractor, int stepsUntilDeath);
+    bool isDropped();
+    unsigned int getState();
+    float getStrength();
+    //int getId();
 };
 
 #endif /* defined(__ArrowMap__Agent__) */

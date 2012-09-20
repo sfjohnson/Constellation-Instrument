@@ -69,20 +69,22 @@ ArrowMap::ArrowMap(const std::string &networkFilePath)
     //Compute entire state space graph
     bool *states = new bool[numNodes];
     graphSize = 1 << numNodes;
-    graph = new unsigned int[graphSize];
+    graph = new state[graphSize];
     for (unsigned int i = 0; i < graphSize; i++)
     {
+        graph[i].attractor = false;
+        
         for (int j = 0; j < numNodes; j++)
             states[numNodes - j - 1] = i >> j & 1;
         
-        graph[i] = 0;
+        graph[i].id = 0;
         for (int j = 0; j < numNodes; j++)
         {
             int n = 0;
             for (int k = 0; k < ancLengths[j]; k++)
                 n |= states[structure[j][k]] << k;
-            graph[i] <<= 1;
-            graph[i] |= nodeLUTs[j][n];
+            graph[i].id <<= 1;
+            graph[i].id |= nodeLUTs[j][n];
         }
     }
     
@@ -96,6 +98,63 @@ ArrowMap::ArrowMap(const std::string &networkFilePath)
     delete [] nodeLUTs;
     delete [] ancLengths;
     delete [] lutLengths;
+    
+    
+    //Determine which states are in attractors
+    bool *done = new bool[graphSize];
+    //bool *flipMap = new bool[graphSize];
+    //bool lastFlip = false;
+    unsigned int numRem = graphSize;
+    unsigned int state = 0;
+    //unsigned int numOn = 0;
+    memset(done, false, graphSize * sizeof(bool));
+    //memset(flipMap, false, graphSize * sizeof(bool));
+    while (numRem > 0)
+    {
+        //Fall into attractor
+        for (int i = 0; i < 100; i++) //DEBUG: Fix this later!!!
+        {
+            if (done[state] == false)
+                numRem--;
+            done[state] = true;
+            state = getNextState(state);
+        }
+        /*while (true)
+        {
+            done[state] = true;
+            numRem--;
+            flipMap[state] = !flipMap[state];
+            if (lastFlip != flipMap[state])
+                break;
+            
+            lastFlip = flipMap[state];
+            state = getNextState(state);
+            //std::cout << state << std::endl;
+            //std::cout << getNextState(state) << std::endl;
+        }*/
+
+        /*while (!done[state])
+        {
+            done[state] = true;
+            numRem--;
+            state = getNextState(state);
+            std::cout << state << std::endl;
+            std::cout << getNextState(state) << std::endl;
+        }*/
+        
+        //Run around attractor once
+        while(!graph[state].attractor)
+        {
+            graph[state].attractor = true;
+            state = getNextState(state);
+        }
+        
+        for (state = 0; state < graphSize-1 && done[state]; state++);
+        
+        //std::cout << "\n";
+    }
+    delete [] done;
+    //delete [] flipMap;
 }
 
 ArrowMap::~ArrowMap()
@@ -105,7 +164,7 @@ ArrowMap::~ArrowMap()
 
 unsigned int ArrowMap::getNextState(unsigned int state) const
 {
-    return graph[state];
+    return graph[state].id;
 }
 
 unsigned int ArrowMap::mapSize() const
@@ -120,5 +179,5 @@ int ArrowMap::networkSize() const
 
 bool ArrowMap::isAttractor(unsigned int state) const
 {
-    return false;
+    return graph[state].attractor;
 }

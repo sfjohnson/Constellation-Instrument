@@ -14,7 +14,13 @@
 
 class ArrowMap
 {
-    unsigned int *graph;
+    struct state
+    {
+        unsigned int id;
+        bool attractor;
+    };
+    
+    state *graph;
     unsigned int graphSize;
     int numNodes;
     
