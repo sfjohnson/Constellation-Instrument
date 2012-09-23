@@ -44,7 +44,7 @@ void ArrowMapApp::prepareSettings(Settings *settings)
 
 void ArrowMapApp::setup()
 {
-    am = new ArrowMap(getAssetPath("network512.rbn").string());
+    am = new ArrowMap(getAssetPath("denseNetwork1024.rbn").string());
     particles = new MapParticle*[am->mapSize()];
     
     Rand::randomize();
@@ -169,7 +169,7 @@ void ArrowMapApp::keyUp(KeyEvent event)
 
 void ArrowMapApp::update()
 {
-    if (timer.getSeconds() - t >= 0.07)
+    if (timer.getSeconds() - t >= 0.2)
     {
         for (vector<Agent*>::iterator it = agents.begin(); it < agents.end(); it++)
             (*it)->step();

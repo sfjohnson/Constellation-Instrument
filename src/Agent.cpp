@@ -34,7 +34,7 @@ void Agent::step()
 {
     if (dropped)
     {
-        std::stringstream ss;
+        //std::stringstream ss;
 
         if ((steadyCounter == 0 && map->isAttractor(state)) || (steadyCounter > 0 && steadyCounter < steadyLength))
             steadyCounter++;
@@ -51,13 +51,15 @@ void Agent::step()
         }
         
         message.clear();
+        message.addIntArg(agentId);
         message.addFloatArg(strength);
-        message.addIntArg(map->networkSize());
+        //message.addIntArg(map->networkSize());
         for (int i = map->networkSize() - 1; i >= 0; i--)
             message.addIntArg(state >> i & 1);
     
-        ss << "/Cinder/rbn/agent/" << agentId;
-        message.setAddress(ss.str());
+        //ss << "/Cinder/rbn/agent/" << agentId;
+        //message.setAddress(ss.str());
+        message.setAddress("/Cinder/rbn/agent");
         sender.sendMessage(message);
     
         state = map->getNextState(state);

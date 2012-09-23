@@ -5,11 +5,11 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist Info.plist
 cCpResource CinderApp.icns ./build/Debug/ArrowMap.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-gnbubqhbidevjzfieygvzuobdzgn/ArrowMap_Prefix.pch.pth ArrowMap_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/OscBundle.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/MapParticle.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/MapParticle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMap.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/physicsParticle.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/physicsParticle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/OscBundle.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/MapParticle.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/MapParticle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/OscListener.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/OscMessage.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/OscSender.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -11944,9 +11944,9 @@ t1347525851
 s671
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp
-c00000000505982DB0000000000000D11
-t1348043483
-s3345
+c00000000505AB5630000000000000D6E
+t1348121955
+s3438
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMap.cpp
 c0000000050581ED900000000000012BD
@@ -11954,9 +11954,9 @@ t1347952345
 s4797
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp
-c00000000505985FC000000000000192B
-t1348044284
-s6443
+c00000000505ECC270000000000001930
+t1348389927
+s6448
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/MapParticle.cpp
 c00000000504F267D000000000000006F
@@ -11974,8 +11974,8 @@ t1347368299
 s906
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o
-t1348043735
-s98252
+t1348121984
+s70028
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.LinkFileList
 c000000005056BE7B0000000000000676
@@ -11987,7 +11987,7 @@ t1347952415
 s70660
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o
-t1348044290
+t1348389861
 s521444
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/MapParticle.o
@@ -12019,7 +12019,7 @@ t1347860688
 s39848
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app
-t1348044292
+t1348389862
 s102
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/Info.plist
@@ -12027,8 +12027,8 @@ t1347331841
 s1222
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap
-t1348044292
-s8254640
+t1348389862
+s8254416
 
 N/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/PkgInfo
 t1347331841
@@ -18296,11 +18296,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5b41b77dc10ab641^1ec30782c10ab641^---0#1#0#--18"Check dependencies36"D5BFE4C9-B0AD-4185-8249-AA7D843EC7AF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd080faa8030fb641^8c4bfda8030fb641^---0#1#0#--18"Check dependencies36"5599F8B0-87F0-4729-A21E-15A41F219FCB-
 
 CCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369736534.847613
-e369736535.659351
+s369814783.697793
+e369814784.171913
 r1
 xCompileC
 x./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o
@@ -18309,7 +18309,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cppd124d956bb09b641^16dba857bb09b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp0000000000000000^2734"CompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o ../src/Agent.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap.hmap -I../../../../../../../cinder_0.8.4_mac/include -I../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug/include -I../../../../../../../cinder_0.8.4_mac/boost -I../blocks/osc/include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/i386 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -include /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-gnbubqhbidevjzfieygvzuobdzgn/ArrowMap_Prefix.pch -MMD -MT dependencies -MF /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.d --serialize-diagnostics /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o36"3B3346E5-7CEA-4217-BDBE-90FEBDE28242-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp72c4b2ffec0ab641^a7042c00ed0ab641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp0000000000000000^2734"CompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o ../src/Agent.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap.hmap -I../../../../../../../cinder_0.8.4_mac/include -I../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug/include -I../../../../../../../cinder_0.8.4_mac/boost -I../blocks/osc/include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/i386 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -include /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-gnbubqhbidevjzfieygvzuobdzgn/ArrowMap_Prefix.pch -MMD -MT dependencies -MF /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.d --serialize-diagnostics /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/Agent.cpp -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o36"BEFE4997-189C-4909-B0DE-13B22537D8BB-
 
 CCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/Agent.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/Agent.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s369287887.441054
@@ -18354,8 +18354,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMap.cpp6f7ebf4ee302b641^6f65114fe302b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMap.cpp0000000000000000^2496"CompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.o ../src/ArrowMap.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap.hmap -I../../../../../../cinder_0.8.4_mac/include -I../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug/include -I../../../../../../cinder_0.8.4_mac/boost -I../blocks/osc/include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/i386 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/build/Debug -include /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-fnmumzpokprlrwfazgirtgwfuklm/ArrowMap_Prefix.pch -MMD -MT dependencies -MF /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.d --serialize-diagnostics /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMap.cpp -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.o36"F729270B-D690-40F4-B669-F69C3D025D34-
 
 CCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369737086.809648
-e369737091.040749
+s370082729.048413
+e370082733.428762
 r1
 xCompileC
 x./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o
@@ -18364,7 +18364,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp8c64cf7ebd09b641^986e0a83bd09b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp0000000000000000^2770"CompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o ../src/ArrowMapApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap.hmap -I../../../../../../../cinder_0.8.4_mac/include -I../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug/include -I../../../../../../../cinder_0.8.4_mac/boost -I../blocks/osc/include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/i386 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -include /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-gnbubqhbidevjzfieygvzuobdzgn/ArrowMap_Prefix.pch -MMD -MT dependencies -MF /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.d --serialize-diagnostics /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o36"7F0D9A14-5759-4633-88DC-7059D62AD5FC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp02830ca9030fb641^8bc36dad030fb641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp0000000000000000^2770"CompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o ../src/ArrowMapApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/ArrowMap.hmap -I../../../../../../../cinder_0.8.4_mac/include -I../include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug/include -I../../../../../../../cinder_0.8.4_mac/boost -I../blocks/osc/include -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources/i386 -I/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/DerivedSources -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -include /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ArrowMap_Prefix-gnbubqhbidevjzfieygvzuobdzgn/ArrowMap_Prefix.pch -MMD -MT dependencies -MF /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.d --serialize-diagnostics /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.dia -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../src/ArrowMapApp.cpp -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o36"5C731A62-505E-4D0C-A8A9-194AEDB38FBB-
 
 CCompileC ./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMapApp.o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/../src/ArrowMapApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s369532291.551442
@@ -18615,14 +18615,14 @@ CCpResource CinderApp.icns ./build/Debug/ArrowMap.app/Contents/Resources/CinderA
 r0
 
 CLd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal i386
-s369737091.047590
-e369737092.306974
+s370082733.435392
+e370082734.054824
 r1
 xLd
 x/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap02490c83bd09b641^b5a54e84bd09b641^---0#0#0#--1708"Ld ./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal i386    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/iphone -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/macosx -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -filelist /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.LinkFileList -mmacosx-version-min=10.5 ../../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/iphone/osc.a /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/macosx/osc.a -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap36"4C3ED564-2360-4488-84F1-DE0F06527442-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap2e916fad030fb641^46090eae030fb641^---0#0#0#--1708"Ld ./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal i386    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/iphone -L/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/macosx -F/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/build/Debug -filelist /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/ArrowMap.build/Debug/ArrowMap.build/Objects-normal/i386/ArrowMap.LinkFileList -mmacosx-version-min=10.5 ../../../../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/iphone/osc.a /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/../blocks/osc/lib/macosx/osc.a -o /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap36"2029794B-E9C5-47A8-9332-6A5C83D281BA-
 
 CLd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app/Contents/MacOS/ArrowMap normal i386
 s369532296.750578
@@ -18727,12 +18727,12 @@ CProcessPCH++ /var/folders/m8/bknsskv14y196k88379_t2pc0000gn/C/com.apple.Xcode.5
 r0
 
 CTouch /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app
-s369737092.315075
-e369737092.866792
+s370082734.062900
+e370082734.074251
 r1
 xTouch
 x/Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Touch /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.appbfb85084bd09b641^55f6dd84bd09b641^---0#0#0#--265"Touch ./build/Debug/ArrowMap.app    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    /usr/bin/touch -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app36"18C5F267-3412-426C-8EF3-87A2EDF4AF48-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Touch /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app062d10ae030fb641^b40213ae030fb641^---0#0#0#--265"Touch ./build/Debug/ArrowMap.app    cd /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode    /usr/bin/touch -c /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/Constellation-Instrument/xcode/./build/Debug/ArrowMap.app36"E6ECDC93-2EFE-49D8-ADAC-E27EE6AED6D4-
 
 CTouch /Users/samjohnson/Documents/deco2/sem2/deco3441/ArrowMap/xcode/./build/Debug/ArrowMap.app
 s369532301.630303
